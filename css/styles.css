@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  padding: 50px;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+span {
+    color: red;
+}
+
+#app {
+    padding: 30px;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
